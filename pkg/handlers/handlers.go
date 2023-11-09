@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/AlvinTsou/WebDev/pkg/config"
-	"github.com/AlvinTsou/WebDev/pkg/models"
-	"github.com/AlvinTsou/WebDev/pkg/render"
+	"github.com/AlvinTsou/bookings/pkg/config"
+	"github.com/AlvinTsou/bookings/pkg/models"
+	"github.com/AlvinTsou/bookings/pkg/render"
 )
 
 // Repo is the repository used by the handlers

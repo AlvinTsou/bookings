@@ -3,8 +3,8 @@ package main
 import (
 	"net/http"
 
-	"github.com/AlvinTsou/WebDev/pkg/config"
-	"github.com/AlvinTsou/WebDev/pkg/handlers"
+	"github.com/AlvinTsou/bookings/pkg/config"
+	"github.com/AlvinTsou/bookings/pkg/handlers"
 	"github.com/go-chi/chi/v5"
 	"github.com/go-chi/chi/v5/middleware"
 )

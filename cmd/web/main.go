@@ -7,9 +7,9 @@ import (
 	//"html/template"
 	"net/http"
 
-	"github.com/AlvinTsou/WebDev/pkg/config"
-	"github.com/AlvinTsou/WebDev/pkg/handlers"
-	"github.com/AlvinTsou/WebDev/pkg/render"
+	"github.com/AlvinTsou/bookings/pkg/config"
+	"github.com/AlvinTsou/bookings/pkg/handlers"
+	"github.com/AlvinTsou/bookings/pkg/render"
 	"github.com/alexedwards/scs/v2"
 )
 

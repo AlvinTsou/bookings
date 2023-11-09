@@ -7,8 +7,8 @@ import (
 	"net/http"
 	"path/filepath"
 
-	"github.com/AlvinTsou/WebDev/pkg/config"
-	"github.com/AlvinTsou/WebDev/pkg/models"
+	"github.com/AlvinTsou/bookings/pkg/config"
+	"github.com/AlvinTsou/bookings/pkg/models"
 )
 
 var functions = template.FuncMap{}
