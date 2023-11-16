@@ -3,6 +3,7 @@ package main
 import (
 	"fmt"
 	"log"
+	"time"
 
 	//"html/template"
 	"net/http"
@@ -28,7 +29,7 @@ func main() {
 	app.InProduction = false
 
 	session = scs.New()
-	session.Lifetime = 24 * 60 * 60 // 24 hours
+	session.Lifetime = 24 * time.Hour // 24 hours, must be useing time package
 	session.Cookie.Persist = true
 	session.Cookie.SameSite = http.SameSiteLaxMode
 	session.Cookie.Secure = app.InProduction // change to true when https
